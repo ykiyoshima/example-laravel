@@ -5,3 +5,5 @@ service nginx reload
 
 cp /home/site/wwwroot/.env.example /home/site/wwwroot/.env
 php artisan key:generate
+php artisan cache:clear
+php artisan config:clear
